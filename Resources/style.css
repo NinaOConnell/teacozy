@@ -7,16 +7,9 @@ body {
   text-align: center;
 }
 
-h2,
-h3,
-h4 {
-    margin: 0;
-    padding: 10px;
-}
-
 header img {
   height: 50px;
-  padding-left:10px;
+  padding-left: 10px;
 }
 
 header {
@@ -25,6 +18,8 @@ header {
     z-index: 1;
     height: 69px;
     border-bottom: 1px solid seashell;
+    align-items: center;
+    background-color: black;
 }
 .flex-container {
   display: flex;
@@ -33,7 +28,6 @@ header {
 }
 
 nav {
-  text-decoration: underline;
   text-align: right;
   flex-grow: 1;
 }
@@ -41,6 +35,11 @@ nav {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+  padding-right: 10px;
 }
 
 div {
@@ -52,6 +51,13 @@ div {
     opacity: 0.9;
     width: 1200px;
     margin: auto;
+}
+
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 10px;
 }
 
 #mission {
@@ -70,7 +76,7 @@ div {
     height: 700px;
     width: 1000px;
     margin: auto;
-    padding-top: 70px;
+    padding-top: 69px;
 }
 
 .item {
@@ -91,14 +97,14 @@ div {
 }
 
 .location {
+    justify-content: center;
+    flex-direction: column;
     opacity: 1.0;
     padding: 10px;
     margin: 5px 20px;
     background-color: black;
     flex-basis: 280px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 #locations {
@@ -116,7 +122,7 @@ div {
       padding-top: 5px;
   }
 
-#contact {
+  #contact {
     height: 200px;
 }
 
